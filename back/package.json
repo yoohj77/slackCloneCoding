@@ -10,10 +10,13 @@
   "author": "ZeroCho",
   "license": "MIT",
   "dependencies": {
+    "-": "^0.0.1",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
     "bcrypt": "^5.1.0",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
+    "D": "^1.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
@@ -28,8 +31,13 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "pm2": "^4.5.4",
+    "react-refresh": "^0.14.0",
     "sequelize": "^6.5.0",
     "sequelize-cli": "^6.2.0",
-    "socket.io": "^2.4.1"
+    "socket.io": "^2.4.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "devDependencies": {
+    "@types/webpack-dev-server": "^4.7.2"
   }
 }
